@@ -1,0 +1,53 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.data-list {
+    list-style: none;
+    padding: 0;
+}
+.data-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.page-item {
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.page-item.active {
+    background-color: #007bff;
+    color: white;
+}
+.d-flex {
+    display: flex;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.table-responsive {
+    overflow-x: auto;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+}
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
